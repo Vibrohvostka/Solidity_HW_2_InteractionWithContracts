@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "compile": "truffle compile --all",
+    "migrate-rinkeby": "truffle migrate --network rinkeby --reset"
+  },
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.7.0",
+    "dotenv": "^10.0.0"
+  }
+}
